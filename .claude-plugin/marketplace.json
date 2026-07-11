@@ -17,11 +17,18 @@
       "homepage": "https://brandgrowthos.ai",
       "license": "Apache-2.0",
       "category": "productivity",
-      "keywords": ["channel", "chat", "messaging", "hoai", "bgos", "mcp"],
+      "keywords": [
+        "channel",
+        "chat",
+        "messaging",
+        "hoai",
+        "bgos",
+        "mcp"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/BrandGrowthOS/bgos-claude-plugin.git",
-        "ref": "feat/hoai-pair-auth"
+        "ref": "v0.20.0"
       }
     }
   ]
