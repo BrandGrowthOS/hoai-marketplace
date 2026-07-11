@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "hoai",
+  "description": "Home of Agents. Chat with your Claude Code sessions through the HOAI desktop and mobile app.",
+  "owner": {
+    "name": "BrandGrowthOS",
+    "email": "hello@brandgrowthos.ai"
+  },
+  "plugins": [
+    {
+      "name": "hoai",
+      "displayName": "HOAI (Home of Agents)",
+      "description": "HOAI channel for Claude Code. Chat through the HOAI desktop and mobile app with built-in access control. Pairs with a one time code, no account key to paste.",
+      "author": {
+        "name": "BrandGrowthOS"
+      },
+      "homepage": "https://brandgrowthos.ai",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "keywords": ["channel", "chat", "messaging", "hoai", "bgos", "mcp"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrandGrowthOS/bgos-claude-plugin.git",
+        "ref": "feat/hoai-pair-auth"
+      }
+    }
+  ]
+}
